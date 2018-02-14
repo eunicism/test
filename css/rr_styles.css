@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 html, body {
   font-family: arial, helvetica, sans-serif;
   width: 100%;
@@ -28,7 +30,7 @@ html, body {
 	background-color: pink;
 	text-align: center;
 	letter-spacing: 0.05em;
-	padding: 8px;
+	padding: 10px;
 }
 
 .disclaimer {
@@ -38,45 +40,81 @@ html, body {
 	letter-spacing: 0em;
 }
 
-.second {
+.wrapper {
 	display: inline-block;
 	float: left;
 	position: relative;
 	width: 100%;
-	background-color: grey;
 }
 
-.s_search {
+div[class^="s_"] {
 	display: inline-block;
 	float: left;
 	position: relative;
+	padding: 20px;
+}
+
+.s_search, .s_login {
+	/*display: inline-block;
+	float: left;
+	position: relative;
+	padding: 20px;*/
 	width: 30%;
 	background-color: yellow;
-	padding: 5px;
 }
 
 .s_logo {
-	display: inline-block;
+	/*display: inline-block;
 	float: left;
 	position: relative;
+	padding: 20px;*/
 	width: 40%;
-	background-color: red;
-	padding: 5px;
 }
 
-.s_login {
+/* confused!!!!!!!!!*/
+/* confused!!!!!!!!!*/
+/* confused!!!!!!!!!*/
+.logoimage {
+	background-image: url("https://www.rileyrose.com/us/shop/_common/images/en/rr_logo.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+
+/*.s_login {
 	display: inline-block;
 	float: left;
 	position: relative;
+	padding: 20px;
 	width: 30%;
-	background-color: green;
-	padding: 5px;
+	background-color: yellow;
+}*/
+
+/*div::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}*/
+
+.menu {
+	display: block;
+	text-align: center;
+	border-bottom: 0.5px solid #e6e6e6;
 }
 
+ul {
+	display: inline-block;
+	position: relative;
+}
 
-
-
-
+li {
+	display: inline-block;
+	float: left;
+	position: relative;
+	padding: 20px;
+	color: grey;
+	letter-spacing: 0.05em;
+}
 
 
 
