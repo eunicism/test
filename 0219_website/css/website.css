@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+  font-family: arial, helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /*border: 1px solid red;*/
+}
+
+.container_a {
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #f1edec;
+}
+
+.container_b {
+  display: inline-block;
+  position: absolute;
+  right: 10%;
+  width: 80%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #ffffff;
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding: 70px;
+  font-family: serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  line-height: 20px;
+  color: #4d4d33;
+}
+
+.menu {
+  display: inline;
+  float: left;
+  position: relative;
+  width: 100%;
+  font-size: 26px;
+  font-family: serif;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.menu_t {
+  padding: 20px;
+}
+
+.image_a {
+  background: url(http://165.227.117.131/thumbs/graphicdesign/rent-the-runway/rtr-thumbnail-02-505x700.jpg) no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: block;
+  position: relative;
+  float: none;
+  background-size: 75%;
+  height: 500px;
+}
+
+.image_b {
+  background: url(http://www.lottanieminen.com/thumbs/graphicdesign/maisonette/ma-thumbnail-1168x700.jpg) no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: block;
+  position: relative;
+  float: none;
+  background-size: 85%;
+  height: 500px;
+}
+
+.work_v {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  position: relative;
+  padding: 20px;
+  /*border: 1px solid red;*/
+}
+
+.work_h {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  /*border: 1px solid red;*/
+}
+
+.discription {
+  padding: 20px;
+  font-size: 10px;
+  color: grey;
+}
+
+
+
