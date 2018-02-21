@@ -89,7 +89,7 @@ div[class^="row_"] {
 	padding: 3em 0;
 	clear: both;
 }
-figure {
+figurecaption {
 	display: inline-block;
 	float: left;
 	font-size: 85%;
@@ -99,7 +99,7 @@ figure {
 	padding-top: 1em;
 }
 
-figure:last-child {
+figurecaption:last-child {
 	font-family: "Time Roman","Palatino", serif;
 	float: right;
 	text-align: right;
